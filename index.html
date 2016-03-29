@@ -8,17 +8,25 @@
 </head>
 <body>
   	<h1>Find Your Body Mass Index!</h1>
-  	<!-- input form -->
-  	<form action="action_page.php">
-	Height in inches:<br>
-	<input type="text" id="height">
-	<br>
-	Weight in pounds:<br>
-	<input type="text" id="weight">
-  	<br><br>
-  	<!-- button linked to js function -->
-  	<button type="button" onclick="calculate()" class="btn btn-primary btn-lg">Calculate!</button>
-	</form>	
+  	<div class="container">
+	  	<div class="row">
+		  	<div class="col-md-4"></div><!-- col1 -->
+		  	<div class="col-md-4">
+			  	<!-- input form -->
+			  	<form>
+				Height in inches:<br>
+				<input type="text" id="height">
+				<br>
+				Weight in pounds:<br>
+				<input type="text" id="weight">
+			  	<br><br>
+			  	<!-- button linked to js function -->
+			  	<button type="button" onclick="calculate()" class="btn btn-primary btn-lg">Calculate!</button>
+				</form><!-- form end -->
+			</div><!-- col2 -->
+			<div class="col-md-4"></div><!-- col3 -->	
+		</div><!-- row -->	
+	</div><!-- container -->
 
 	<div id="result"></div>
 
