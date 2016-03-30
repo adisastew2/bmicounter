@@ -7,9 +7,8 @@ function calculate (height, weight) {
 
 
 	// display result on page
-	var newH2 = document.createElement("H2");
-	var result = document.createTextNode("Your Body Mass Index is " + bmindex.toFixed(2));
-	newH2.appendChild(result);
-	document.getElementById("result").appendChild(newH2);
+	var yourNumb = document.getElementById("yourNumb")
+	yourNumb.innerHTML="Your Body Mass Index is " + bmindex.toFixed(2)
+	
 }
 	

@@ -10,7 +10,7 @@
   	<h1>Find Your Body Mass Index!</h1>
   	<div class="container">
 	  	<div class="row">
-		  	<div class="col-md-4"><img src="img/black.png"></div><!-- col1 -->
+		  	<div class="col-md-4"><img class="motive" src="img/black.png"></div><!-- col1 -->
 		  	<div class="col-md-4">
 			  	<!-- input form -->
 			  	<form>
@@ -24,12 +24,16 @@
 			  	<button type="button" onclick="calculate()" class="btn btn-primary btn-lg">Calculate!</button>
 				</form><!-- form end -->
 			</div><!-- col2 -->
-			<div class="col-md-4"><img src="img/white.png"></div><!-- col3 -->	
+			<div class="col-md-4"><img class="motive" src="img/white.png"></div><!-- col3 -->	
 		</div><!-- row -->	
 	</div><!-- container -->
 
-	<div id="result"></div>
+	<!-- results -->
+	<div>
+		<h2 id="yourNumb"></h2>
+	</div><!-- results -->
 
+	<script src="js/jquery-1.12.1.min.js"></script> 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>  	
 </body>
