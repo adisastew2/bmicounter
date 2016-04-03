@@ -6,10 +6,11 @@ function calculate (height, weight) {
 	console.log(bmindex);
 
 
-	// display result on page
+	// display bmi on page
 	var yourNumb = document.getElementById("yourNumb")
-	yourNumb.innerHTML="Your Body Mass Index is " + bmindex.toFixed(2)
+	yourNumb.innerHTML="Your BMI is " + bmindex.toFixed(2)
 
+	// gives different message based on range of bmi
 	var info = document.getElementById("info")
 	var rating = document.getElementById("rating")
 	if(bmindex <= 18.5){
