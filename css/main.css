@@ -5,3 +5,9 @@ body {
 	height: 200px;
 	width:200px;
 }
+#black {
+	float: right;
+}
+#white {
+	float: left;
+}
